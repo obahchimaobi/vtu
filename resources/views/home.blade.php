@@ -17,9 +17,9 @@
     <link rel="stylesheet" href="{{ asset('assets/bootstrap/css/style.css') }}">
 </head>
 
-<body>
+<body class="mb-5">
 
-    <nav class="navbar navbar-expand-sm z-3 position-fixed w-100" style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #8e44ad 100%);">
+    <nav class="navbar navbar-expand-sm z-3 position-fixed w-100 pt-3 pb-4" style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #8e44ad 100%);">
         <div class="container">
             <a class="navbar-brand text-light fw-bold" href="{{ route('home') }}" style="background: linear-gradient(135deg, #FF7E5F, #FEB47B); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">EasyPayHub</a>
 
@@ -32,36 +32,56 @@
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav ms-auto mt-2 mt-lg-0" style="font-size: 14px;">
                     <li class="nav-item">
-                        <a class="nav-link me-3 text-light" href="#" aria-current="page">Home</a>
+                        <a class="nav-link me-3 text-light mt-3 mt-xl-0" href="#" aria-current="page">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-3 text-light" href="#">About</a>
+                        <a class="nav-link me-3 text-light mt-3 mt-xl-0" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-3 text-light" href="#">Contact</a>
+                        <a class="nav-link me-3 text-light mt-3 mt-xl-0" href="#">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link me-2 me-3 text-light">Register</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link me-2 me-3 text-light">Login</a>
+                        <a href="" class="text-light btn btn-dark rounded-pill btn-lg ps-3 pe-3 mt-3 mt-xl-0" style="font-size: 14px;">My Account</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <br><br><br><br><br>
+    
     {{-- BANNER --}}
-    <div class="container mt-5">
-        <div class="row d-flex align-items-center">
-            <div class="col-xl-6">
-                <h1 style="font-family: 'Roboto', sans-serif; font-weight: 700;" class=" text-center text-xl-start">Welcome To Sitename</h1>
+    <div style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #8e44ad 100%);">
+        <br><br><br><br><br>
+        <div class="container mt-5">
+            <div class="row d-flex align-items-center text-center text-xl-start">
+                <div class="col-xl-6">
+                    <h1 style="font-family: 'Roboto', sans-serif; font-weight: 700;" class="text-light">Welcome To Sitename</h1>
+    
+                    <p style="font-size: 15px;" class="text-light">Nigeria's topmost enterprise solution to your telecom needs.
+                        Airtime, DATA, Cable Subscription (DSTV, GOTV, Startime), etc.</p>
+    
+                    <div class="mt-3">
+                        <a href="" class="btn btn-dark rounded-pill me-1 ps-3 pe-3 btn-lg" style="font-size: 15px;">Register</a>
+                        <a href="" class="btn btn-dark rounded-pill me-3 ps-4 pe-4 btn-lg" style="font-size: 15px;">Login</a>
+                    </div>
+                </div>
+    
+                <div class="col-xl-6">
+                    <img src="{{ asset('assets/images/slider.png') }}" alt="" class="w-100 img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <br><br>
+        <div class="container mt-5">
+            <div class="text-center">
+                <h3 style="font-family: 'Roboto', sans-serif; font-weight: 400">Virtual Top Up</h3>
+                <h6 style="font-weight: normal;">Electronic vending of Airtime and data</h6>
             </div>
 
-            <div class="col-xl-6">
-                <img src="{{ asset('assets/images/slider.png') }}" alt="" class="w-100 img-fluid">
-            </div>
+            <div class="rounded m-auto mt-3" style="height: 2px; background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #8e44ad 100%); width: 50px;"></div>
         </div>
     </div>
 
