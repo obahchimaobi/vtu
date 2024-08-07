@@ -132,7 +132,9 @@
         <br><br><br>
         <div class="container mt-5">
             <h2 class="text-center mb-5" style="font-family: 'Roboto', sans-serif; font-weight: 400">Pricing</h2>
-            <div class="row pricing-table">
+            <div class="row pricing-table justify-content-center">
+
+                {{-- MTN PRICING TABLE --}}
                 <div class="col-md-4">
                     <div class="card pricing-card">
                         <div class="card-body mb-3">
@@ -169,11 +171,280 @@
                                         <td>₦2550</td>
                                         <td>30 DAYS</td>
                                     </tr>
+
+                                    {{-- COPERATE DATA --}}
+                                    <tr>
+                                        <td>0.5GB</td>
+                                        <td>₦135</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1GB</td>
+                                        <td>₦242</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2GB</td>
+                                        <td>₦552</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3GB</td>
+                                        <td>₦785</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5GB</td>
+                                        <td>₦1420</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10GB</td>
+                                        <td>₦2650</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
                                 </tbody>
                             </table>
 
                             <div class="m-auto text-center mt-4">
-                                <button class="btn btn-outline-primary ps-4 pe-4 pt-2 pb-2">Purchase now</button>
+                                <button class="btn btn-outline-primary ps-4 pe-4 pt-2 pb-2">Buy now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- AIRTEL PRICING TABLE --}}
+                <div class="col-md-4">
+                    <div class="card pricing-card">
+                        <div class="card-body mb-3">
+                            <h4 class="card-title text-center mt-3">AIRTEL PRICE</h4>
+                            <table class="table mt-4 text-center" style="font-size: 13px;">
+                                <tbody>
+                                    <tr>
+                                        <td>0.5GB</td>
+                                        <td>₦130</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1GB</td>
+                                        <td>₦232</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2GB</td>
+                                        <td>₦522</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3GB</td>
+                                        <td>₦770</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5GB</td>
+                                        <td>₦1320</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10GB</td>
+                                        <td>₦2550</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+
+                                    {{-- COPERATE DATA --}}
+                                    <tr>
+                                        <td>0.5GB</td>
+                                        <td>₦135</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1GB</td>
+                                        <td>₦242</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2GB</td>
+                                        <td>₦552</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3GB</td>
+                                        <td>₦785</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5GB</td>
+                                        <td>₦1420</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10GB</td>
+                                        <td>₦2650</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <div class="m-auto text-center mt-4">
+                                <button class="btn btn-outline-primary ps-4 pe-4 pt-2 pb-2">Buy now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- GLO PRICE --}}
+                <div class="col-md-4">
+                    <div class="card pricing-card">
+                        <div class="card-body mb-3">
+                            <h4 class="card-title text-center mt-3">GLO PRICE</h4>
+                            <table class="table mt-4 text-center" style="font-size: 13px;">
+                                <tbody>
+                                    <tr>
+                                        <td>0.5GB</td>
+                                        <td>₦130</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1GB</td>
+                                        <td>₦232</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2GB</td>
+                                        <td>₦522</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3GB</td>
+                                        <td>₦770</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5GB</td>
+                                        <td>₦1320</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10GB</td>
+                                        <td>₦2550</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+
+                                    {{-- COPERATE DATA --}}
+                                    <tr>
+                                        <td>0.5GB</td>
+                                        <td>₦135</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1GB</td>
+                                        <td>₦242</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2GB</td>
+                                        <td>₦552</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3GB</td>
+                                        <td>₦785</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5GB</td>
+                                        <td>₦1420</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10GB</td>
+                                        <td>₦2650</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <div class="m-auto text-center mt-4">
+                                <button class="btn btn-outline-primary ps-4 pe-4 pt-2 pb-2">Buy now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- 9MOBILE PRICE --}}
+                <div class="col-md-4 mt-5">
+                    <div class="card pricing-card">
+                        <div class="card-body mb-3">
+                            <h4 class="card-title text-center mt-3">9MOBILE PRICE</h4>
+                            <table class="table mt-4 text-center" style="font-size: 13px;">
+                                <tbody>
+                                    <tr>
+                                        <td>0.5GB</td>
+                                        <td>₦130</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1GB</td>
+                                        <td>₦232</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2GB</td>
+                                        <td>₦522</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3GB</td>
+                                        <td>₦770</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5GB</td>
+                                        <td>₦1320</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10GB</td>
+                                        <td>₦2550</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+
+                                    {{-- COPERATE DATA --}}
+                                    <tr>
+                                        <td>0.5GB</td>
+                                        <td>₦135</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1GB</td>
+                                        <td>₦242</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2GB</td>
+                                        <td>₦552</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3GB</td>
+                                        <td>₦785</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5GB</td>
+                                        <td>₦1420</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10GB</td>
+                                        <td>₦2650</td>
+                                        <td>30 DAYS</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <div class="m-auto text-center mt-4">
+                                <button class="btn btn-outline-primary ps-4 pe-4 pt-2 pb-2">Buy now</button>
                             </div>
                         </div>
                     </div>
@@ -183,7 +454,81 @@
     </div>
 
 
-    <div id="contact">
+    <div id="faq" x>
+        <br><br><br><br>
+        <div class="container mt-5">
+            <div class="text-center">
+                <h2>FAQ</h2>
 
+                <div class="row mt-5">
+                    <div class="col-xl-6">
+                        <img src="{{ asset('assets/images/faq.png') }}" alt="" class="img-fluid">
+                    </div>
+
+                    <div class="col-xl-6">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Accordion Item #1
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body" style="font-family: 'Roboto', sans-serif;">
+                                        <strong>This is the first item's accordion body.</strong> It is shown by default,
+                                        until the collapse plugin adds the appropriate classes that we use to style each
+                                        element. These classes control the overall appearance, as well as the showing and
+                                        hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                        our default variables. It's also worth noting that just about any HTML can go within
+                                        the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Accordion Item #2
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                        until the collapse plugin adds the appropriate classes that we use to style each
+                                        element. These classes control the overall appearance, as well as the showing and
+                                        hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                        our default variables. It's also worth noting that just about any HTML can go within
+                                        the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Accordion Item #3
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                        until the collapse plugin adds the appropriate classes that we use to style each
+                                        element. These classes control the overall appearance, as well as the showing and
+                                        hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                        our default variables. It's also worth noting that just about any HTML can go within
+                                        the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 @endsection

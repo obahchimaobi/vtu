@@ -25,7 +25,7 @@
                         <a class="nav-link me-4 text-light mt-3 mt-xl-0" href="#pricing">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light mt-3 mt-xl-0" href="#pricing">Contact</a>
+                        <a class="nav-link text-light mt-3 mt-xl-0" href="#faq">FAQ</a>
                     </li>
                 </ul>
             </div>

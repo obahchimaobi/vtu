@@ -14,3 +14,22 @@ body {
     transform: translateY(-15px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
+
+.footer {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #8e44ad 100%);
+    color: white;
+    /* padding: 40px 0; */
+}
+
+.footer .footer-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

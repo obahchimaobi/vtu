@@ -17,9 +17,11 @@
 
     {{-- CUSTOM CSS --}}
     <link rel="stylesheet" href="{{ asset('assets/bootstrap/css/style.css') }}">
+
+    <link rel="shortcut icon" href="{{ asset('assets/images/money-bag.svg') }}" type="image/x-icon">
 </head>
 
-<body class="mb-5 bg-light">
+<body class="bg-light">
 
     @include('layouts._header')
 
@@ -27,6 +29,7 @@
 
     @include('layouts._footer')
 
+    
     <script src="{{ asset('assets/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('assets/bootstrap/js/jquery-3.7.1.min.js') }}"></script>
 </body>
