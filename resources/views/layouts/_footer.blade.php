@@ -1,4 +1,4 @@
-@if (!Request::is('login') && !Request::is('register'))
+@if (!Request::is('login') && !Request::is('register') && !Request::is('reset-password'))
     <br><br><br>
     <footer class="footer mt-5 pt-5" style="font-family: 'Roboto', sans-serif;">
         <div class="container">

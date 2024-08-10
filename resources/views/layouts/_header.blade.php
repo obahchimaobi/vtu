@@ -1,4 +1,4 @@
-@if (!Request::is('login') && !Request::is('register'))
+@if (!Request::is('login') && !Request::is('register') && !Request::is('reset-password'))
 <nav class="navbar navbar-expand-sm z-3 position-fixed w-100 pt-3 pb-4"
 style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #8e44ad 100%);">
 <div class="container">

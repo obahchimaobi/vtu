@@ -18,23 +18,23 @@
 
                             <div class="row">
                                 <div class="col-xl-6 mt-2">
-                                    <input type="text" class="form-control mt-2 pt-2 pb-2 shadow-none" placeholder="Full Name" style="font-size: 15px;" @required(true)>
+                                    <input type="text" class="form-control mt-2 pt-3 pb-3 shadow-none" placeholder="Full Name" style="font-size: 15px;" @required(true)>
                                 </div>
 
                                 <div class="col-xl-6 mt-2">
-                                    <input type="text" class="form-control mt-2 pt-2 pb-2 shadow-none" placeholder="Username" style="font-size: 15px;" @required(true)>
+                                    <input type="text" class="form-control mt-2 pt-3 pb-3 shadow-none" placeholder="Username" style="font-size: 15px;" @required(true)>
                                 </div>
 
                                 <div class="col-xl-12 mt-2">
-                                    <input type="text" class="form-control mt-2 pt-2 pb-2 shadow-none" placeholder="Email" style="font-size: 15px;" @required(true)>
+                                    <input type="text" class="form-control mt-2 pt-3 pb-3 shadow-none" placeholder="Email" style="font-size: 15px;" @required(true)>
                                 </div>
 
                                 <div class="col-xl-6 mt-2">
-                                    <input type="text" class="form-control mt-2 pt-2 pb-2 shadow-none" placeholder="Password" style="font-size: 15px;" @required(true)>
+                                    <input type="text" class="form-control mt-2 pt-3 pb-3 shadow-none" placeholder="Password" style="font-size: 15px;" @required(true)>
                                 </div>
 
                                 <div class="col-xl-6 mt-2">
-                                    <input type="text" class="form-control mt-2 pt-2 pb-2 shadow-none" placeholder="Confirm Password" style="font-size: 15px;" @required(true)>
+                                    <input type="text" class="form-control mt-2 pt-3 pb-3 shadow-none" placeholder="Confirm Password" style="font-size: 15px;" @required(true)>
                                 </div>
                             </div>
 
