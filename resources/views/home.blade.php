@@ -26,8 +26,8 @@
                     got you covered with convenience and efficiency.</p>
 
                 <div class="mt-5">
-                    <a href="" class="btn btn-dark me-1 ps-3 pe-3 btn-lg" style="font-size: 18px;">Register</a>
-                    <a href="" class="btn btn-dark me-3 ps-4 pe-4 btn-lg" style="font-size: 18px;">Login</a>
+                    <a href="{{ route('register.page') }}" class="btn btn-dark me-1 ps-3 pe-3 btn-lg" style="font-size: 18px;">Register</a>
+                    <a href="{{ route('login.page') }}" class="btn btn-dark me-3 ps-4 pe-4 btn-lg" style="font-size: 18px;">Login</a>
                 </div>
             </div>
         </div>
