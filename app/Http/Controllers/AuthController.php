@@ -22,13 +22,8 @@ class AuthController extends Controller
         return view('auth.forgot-password');
     }
 
-    public function register(Request $register)
+    public function dashboard()
     {
-        $register->validate([
-            'full_name' => 'required|string',
-            'username' => 'required|string',
-            'email' => 'required|unique:users,email',
-            'password' => 'required|confirmed',
-        ]);
+        return view('components.dashboard');
     }
 }
