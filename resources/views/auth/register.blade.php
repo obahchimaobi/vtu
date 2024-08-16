@@ -5,10 +5,10 @@
 @endsection
 
 @section('content')
-    <br><br><br>
+    <br>
     <!-- Pills navs -->
 
-    <div class="container">
+    <div class="container mb-4 mt-xl-5 mt-0">
         <div class="row">
             <div class="col-xl-6">
                 <form action="" method="post" style="font-family: 'Roboto', sans-serif;">
@@ -51,7 +51,7 @@
                 </form>
             </div>
 
-            <div class="col-xl-6">
+            <div class="col-xl-6 d-none d-xl-block">
                 <img src="{{ asset('assets/images/about.png') }}" alt="" class="img-fluid">
             </div>
         </div>

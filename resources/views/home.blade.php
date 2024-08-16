@@ -43,7 +43,7 @@
             <div class="mt-5 pt-3">
                 <div class="row">
                     <div class="col-xl-6">
-                        <img src="{{ asset('assets/images/about.png') }}" alt="">
+                        <img src="{{ asset('assets/images/about.png') }}" alt="" class="img-fluid">
                     </div>
 
                     <div class="col-xl-6">
@@ -68,8 +68,8 @@
 
             <div class="mt-5">
                 <div class="row">
-
-                    <div class="col-xl-3 d-flex">
+                    
+                    <div class="col-xl-3 d-flex col-12">
                         <div class="card pt-5 ps-3 pb-5 pe-3 text-center border-0 shadow hover-card"
                             style="width: 18rem; border-radius: 20px;">
                             <img src="{{ asset('assets/images/data.jpg') }}"
@@ -135,7 +135,7 @@
             <div class="row pricing-table justify-content-center">
 
                 {{-- MTN PRICING TABLE --}}
-                <div class="col-md-4">
+                <div class="col-md-4 mt-5 mt-xl-0">
                     <div class="card pricing-card">
                         <div class="card-body mb-3">
                             <h4 class="card-title text-center mt-3">MTN PRICE</h4>
@@ -214,7 +214,7 @@
                 </div>
 
                 {{-- AIRTEL PRICING TABLE --}}
-                <div class="col-md-4">
+                <div class="col-md-4 mt-5 mt-xl-0">
                     <div class="card pricing-card">
                         <div class="card-body mb-3">
                             <h4 class="card-title text-center mt-3">AIRTEL PRICE</h4>
@@ -293,7 +293,7 @@
                 </div>
 
                 {{-- GLO PRICE --}}
-                <div class="col-md-4">
+                <div class="col-md-4 mt-5 mt-xl-0">
                     <div class="card pricing-card">
                         <div class="card-body mb-3">
                             <h4 class="card-title text-center mt-3">GLO PRICE</h4>
